@@ -1,0 +1,41 @@
+cd $HOME/openfoam
+openfoam10-macos
+
+# copying tutorials (inside openfoam shell)
+cp -r $FOAM_TUTORIALS/incompressible/simpleFoam/pitzDaily .
+
+# now able to run paraFoam, but performance is poor -> should try out paraView command from bas shell again 
+
+# use pwd command to get path to directory 
+pwd 
+cp -r $FOAM_TUTORIALS/heatTransfer/buoyantFoam/hotRoom .
+
+cp -r $FOAM_TUTORIALS/compressible/rhoPimpleFoam/laminar/shockTube _originalTutorials
+
+# list all files in directory (worked with fish, could also work with bash?) 
+ls * 
+
+# to creat and view mesh -> inside the directory 
+blockMesh # (openFoam shell) 
+touch foam.foam # (bash shell)
+paraView foam.foam & # (bash shell)
+
+# update timing things in control dict bc this is just an example 
+# -> endTime = 100
+
+# run simulation ... (in the background, amd store solution in log file)
+buoyantFoam > log &
+cat log
+
+
+# meshing with gmsh
+gmshToFoam <name of mesh>
+
+checkMesh # (mesh should be ok) 
+
+# read system/createBafflesDict file and createBaffles
+createBaffles -overwrite
+
+# move multiple folders 
+# mv -t <destination> <src1> <src2> .... <srnN>
+mv -t exp_roomWT nv_hotRoom nv_hotRoom2

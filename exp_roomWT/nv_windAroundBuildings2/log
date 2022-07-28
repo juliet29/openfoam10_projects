@@ -1,0 +1,2114 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-2c6a80318abb
+Exec   : /opt/openfoam10/platforms/linux64GccDPInt32Opt/bin/simpleFoam
+Date   : Jul 27 2022
+Time   : 19:57:47
+Host   : "add46b1c38a5"
+PID    : 370
+I/O    : uncollated
+Case   : /home/openfoam/nv_windAroundBuildings2
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+SIMPLE: Convergence criteria found
+        p: tolerance 0.0001
+        U: tolerance 0.0001
+        "(k|omega|epsilon)": tolerance 0.0001
+
+Reading field p
+
+Reading field U
+
+Reading/calculating face flux field phi
+
+Selecting viscosity model constant
+Selecting turbulence model type RAS
+Selecting RAS turbulence model kEpsilon
+RAS
+{
+    model           kEpsilon;
+    turbulence      on;
+    printCoeffs     on;
+    Cmu             0.09;
+    C1              1.44;
+    C2              1.92;
+    C3              0;
+    sigmak          1;
+    sigmaEps        1.3;
+}
+
+No MRF models present
+
+No fvModels present
+No fvConstraints present
+
+Starting time loop
+
+Time = 1s
+
+smoothSolver:  Solving for Ux, Initial residual = 1, Final residual = 0.0795281, No Iterations 2
+smoothSolver:  Solving for Uy, Initial residual = 0, Final residual = 0, No Iterations 0
+smoothSolver:  Solving for Uz, Initial residual = 0, Final residual = 0, No Iterations 0
+GAMG:  Solving for p, Initial residual = 1, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = -nan, cumulative = -nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 66.9152 s  ClockTime = 67 s
+
+Time = 2s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 160.466 s  ClockTime = 1139 s
+
+Time = 3s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 254.063 s  ClockTime = 1233 s
+
+Time = 4s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 347.727 s  ClockTime = 1326 s
+
+Time = 5s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 440.949 s  ClockTime = 1420 s
+
+Time = 6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 534.178 s  ClockTime = 1513 s
+
+Time = 7s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 627.471 s  ClockTime = 1606 s
+
+Time = 8s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 721.185 s  ClockTime = 1700 s
+
+Time = 9s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 814.584 s  ClockTime = 1793 s
+
+Time = 10s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 907.772 s  ClockTime = 1886 s
+
+Time = 11s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 1001.01 s  ClockTime = 1980 s
+
+Time = 12s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 1094.29 s  ClockTime = 2073 s
+
+Time = 13s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 1187.52 s  ClockTime = 2166 s
+
+Time = 14s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 1281 s  ClockTime = 2260 s
+
+Time = 15s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 1374.14 s  ClockTime = 2353 s
+
+Time = 16s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 1467.2 s  ClockTime = 2446 s
+
+Time = 17s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 1560.31 s  ClockTime = 2539 s
+
+Time = 18s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 1653.43 s  ClockTime = 2632 s
+
+Time = 19s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 1746.66 s  ClockTime = 2725 s
+
+Time = 20s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 1839.83 s  ClockTime = 2819 s
+
+Time = 21s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 1933.12 s  ClockTime = 2912 s
+
+Time = 22s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 2026.24 s  ClockTime = 3005 s
+
+Time = 23s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 2119.38 s  ClockTime = 3098 s
+
+Time = 24s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 2212.48 s  ClockTime = 3191 s
+
+Time = 25s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 2305.6 s  ClockTime = 3284 s
+
+Time = 26s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 2398.71 s  ClockTime = 3378 s
+
+Time = 27s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 2491.77 s  ClockTime = 3471 s
+
+Time = 28s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 2584.89 s  ClockTime = 3564 s
+
+Time = 29s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 2678.07 s  ClockTime = 3657 s
+
+Time = 30s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 2771.17 s  ClockTime = 3750 s
+
+Time = 31s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 2864.3 s  ClockTime = 3843 s
+
+Time = 32s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 2957.39 s  ClockTime = 3936 s
+
+Time = 33s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 3050.5 s  ClockTime = 4029 s
+
+Time = 34s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 3143.63 s  ClockTime = 4123 s
+
+Time = 35s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 3236.72 s  ClockTime = 4216 s
+
+Time = 36s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 3329.81 s  ClockTime = 4309 s
+
+Time = 37s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 3422.97 s  ClockTime = 4402 s
+
+Time = 38s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 3516.16 s  ClockTime = 4495 s
+
+Time = 39s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 3609.42 s  ClockTime = 4588 s
+
+Time = 40s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 3702.57 s  ClockTime = 4682 s
+
+Time = 41s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 3795.69 s  ClockTime = 4775 s
+
+Time = 42s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 3888.9 s  ClockTime = 4868 s
+
+Time = 43s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 3982.04 s  ClockTime = 4961 s
+
+Time = 44s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 4075.13 s  ClockTime = 5054 s
+
+Time = 45s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 4168.29 s  ClockTime = 5147 s
+
+Time = 46s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 4261.48 s  ClockTime = 5241 s
+
+Time = 47s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 4354.63 s  ClockTime = 5334 s
+
+Time = 48s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 4447.72 s  ClockTime = 5427 s
+
+Time = 49s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 4540.83 s  ClockTime = 5520 s
+
+Time = 50s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 4634.44 s  ClockTime = 5614 s
+
+Time = 51s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 4727.61 s  ClockTime = 5707 s
+
+Time = 52s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 4820.71 s  ClockTime = 5800 s
+
+Time = 53s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 4913.87 s  ClockTime = 5893 s
+
+Time = 54s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 5007.04 s  ClockTime = 5987 s
+
+Time = 55s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 5100.28 s  ClockTime = 6080 s
+
+Time = 56s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 5193.37 s  ClockTime = 6173 s
+
+Time = 57s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 5286.43 s  ClockTime = 6266 s
+
+Time = 58s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 5380.18 s  ClockTime = 6360 s
+
+Time = 59s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 5473.35 s  ClockTime = 6453 s
+
+Time = 60s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 5566.51 s  ClockTime = 6546 s
+
+Time = 61s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 5659.73 s  ClockTime = 6639 s
+
+Time = 62s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 5753.08 s  ClockTime = 6733 s
+
+Time = 63s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 5846.33 s  ClockTime = 6826 s
+
+Time = 64s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 5939.51 s  ClockTime = 6919 s
+
+Time = 65s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 6032.89 s  ClockTime = 7013 s
+
+Time = 66s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 6126.26 s  ClockTime = 7106 s
+
+Time = 67s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 6219.43 s  ClockTime = 7199 s
+
+Time = 68s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 6312.68 s  ClockTime = 7292 s
+
+Time = 69s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 6405.85 s  ClockTime = 7386 s
+
+Time = 70s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 6498.97 s  ClockTime = 7479 s
+
+Time = 71s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 6592.14 s  ClockTime = 7572 s
+
+Time = 72s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 6685.21 s  ClockTime = 7665 s
+
+Time = 73s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 6778.28 s  ClockTime = 7758 s
+
+Time = 74s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 6871.45 s  ClockTime = 7851 s
+
+Time = 75s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 6964.57 s  ClockTime = 7944 s
+
+Time = 76s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 7057.67 s  ClockTime = 8038 s
+
+Time = 77s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 7150.77 s  ClockTime = 8131 s
+
+Time = 78s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 7243.95 s  ClockTime = 8224 s
+
+Time = 79s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 7337.07 s  ClockTime = 8317 s
+
+Time = 80s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 7430.17 s  ClockTime = 8410 s
+
+Time = 81s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 7523.36 s  ClockTime = 8503 s
+
+Time = 82s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 7616.46 s  ClockTime = 8596 s
+
+Time = 83s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 7709.64 s  ClockTime = 8690 s
+
+Time = 84s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 7802.75 s  ClockTime = 8783 s
+
+Time = 85s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 7895.96 s  ClockTime = 8876 s
+
+Time = 86s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 7989.04 s  ClockTime = 8969 s
+
+Time = 87s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 8082.24 s  ClockTime = 9062 s
+
+Time = 88s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 8175.34 s  ClockTime = 9155 s
+
+Time = 89s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 8268.48 s  ClockTime = 9248 s
+
+Time = 90s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 8361.53 s  ClockTime = 9342 s
+
+Time = 91s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 8454.66 s  ClockTime = 9435 s
+
+Time = 92s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 8547.75 s  ClockTime = 9528 s
+
+Time = 93s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 8640.85 s  ClockTime = 9621 s
+
+Time = 94s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 8733.96 s  ClockTime = 9714 s
+
+Time = 95s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 8827.02 s  ClockTime = 9807 s
+
+Time = 96s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 8920.1 s  ClockTime = 9900 s
+
+Time = 97s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 9013.39 s  ClockTime = 9993 s
+
+Time = 98s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 9107.12 s  ClockTime = 12030 s
+
+Time = 99s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 9202.36 s  ClockTime = 21611 s
+
+Time = 100s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 9300.13 s  ClockTime = 37966 s
+
+Time = 101s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 9393.79 s  ClockTime = 46751 s
+
+Time = 102s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 9488.83 s  ClockTime = 57719 s
+
+Time = 103s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 9584.56 s  ClockTime = 67898 s
+
+Time = 104s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 9680.91 s  ClockTime = 70299 s
+
+Time = 105s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 9775.63 s  ClockTime = 70394 s
+
+Time = 106s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 9868.93 s  ClockTime = 70487 s
+
+Time = 107s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 9962.27 s  ClockTime = 70581 s
+
+Time = 108s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 10055.6 s  ClockTime = 70674 s
+
+Time = 109s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 10150.3 s  ClockTime = 70769 s
+
+Time = 110s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 10243.7 s  ClockTime = 70862 s
+
+Time = 111s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 10337 s  ClockTime = 70955 s
+
+Time = 112s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 10432 s  ClockTime = 71050 s
+
+Time = 113s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 10526.6 s  ClockTime = 71145 s
+
+Time = 114s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 10621.2 s  ClockTime = 71240 s
+
+Time = 115s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 10716.8 s  ClockTime = 71335 s
+
+Time = 116s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 10810.7 s  ClockTime = 71429 s
+
+Time = 117s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 10906.7 s  ClockTime = 71525 s
+
+Time = 118s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 11001.6 s  ClockTime = 71620 s
+
+Time = 119s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 11095.2 s  ClockTime = 71714 s
+
+Time = 120s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 11189.7 s  ClockTime = 71808 s
+
+Time = 121s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 11284.1 s  ClockTime = 71903 s
+
+Time = 122s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 11378.6 s  ClockTime = 71997 s
+
+Time = 123s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 11472.9 s  ClockTime = 72092 s
+
+Time = 124s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 11567.8 s  ClockTime = 72187 s
+
+Time = 125s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 11661.3 s  ClockTime = 72280 s
+
+Time = 126s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 11755.1 s  ClockTime = 72374 s
+
+Time = 127s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 11849.1 s  ClockTime = 72468 s
+
+Time = 128s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 11942.3 s  ClockTime = 72561 s
+
+Time = 129s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 12035.5 s  ClockTime = 72654 s
+
+Time = 130s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 12128.6 s  ClockTime = 72747 s
+
+Time = 131s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 12222.9 s  ClockTime = 72842 s
+
+Time = 132s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 12317.1 s  ClockTime = 72936 s
+
+Time = 133s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 12411.2 s  ClockTime = 73030 s
+
+Time = 134s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 12505.4 s  ClockTime = 73124 s
+
+Time = 135s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 12600.4 s  ClockTime = 73219 s
+
+regIOobject::readIfModified() : 
+    Re-reading object controlDict from file "/home/openfoam/nv_windAroundBuildings2/system/controlDict"
+Time = 135.5s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 12697.8 s  ClockTime = 73317 s
+
+regIOobject::readIfModified() : 
+    Re-reading object controlDict from file "/home/openfoam/nv_windAroundBuildings2/system/controlDict"
+Time = 135.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 12791.3 s  ClockTime = 73410 s
+
+regIOobject::readIfModified() : 
+    Re-reading object controlDict from file "/home/openfoam/nv_windAroundBuildings2/system/controlDict"
+Time = 136.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 12884.9 s  ClockTime = 73504 s
+
+Time = 137.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 12979.2 s  ClockTime = 73598 s
+
+Time = 138.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 13073.7 s  ClockTime = 73693 s
+
+Time = 139.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 13168.4 s  ClockTime = 73788 s
+
+Time = 140.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 13264.8 s  ClockTime = 73884 s
+
+Time = 141.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 13359.5 s  ClockTime = 73979 s
+
+Time = 142.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 13453.3 s  ClockTime = 74072 s
+
+Time = 143.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 13548.9 s  ClockTime = 74168 s
+
+Time = 144.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 13643.1 s  ClockTime = 74262 s
+
+Time = 145.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 13737 s  ClockTime = 74356 s
+
+Time = 146.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 13831 s  ClockTime = 74450 s
+
+Time = 147.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 13924.6 s  ClockTime = 74544 s
+
+Time = 148.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 14018.9 s  ClockTime = 74638 s
+
+Time = 149.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 14114.2 s  ClockTime = 74734 s
+
+Time = 150.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 14209.1 s  ClockTime = 74829 s
+
+Time = 151.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 14303.7 s  ClockTime = 74923 s
+
+Time = 152.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 14397.7 s  ClockTime = 75017 s
+
+Time = 153.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 14492.1 s  ClockTime = 75112 s
+
+Time = 154.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 14586.6 s  ClockTime = 75206 s
+
+Time = 155.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 14681.8 s  ClockTime = 75302 s
+
+Time = 156.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 14776.4 s  ClockTime = 75396 s
+
+Time = 157.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 14871.9 s  ClockTime = 75492 s
+
+Time = 158.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 14967.1 s  ClockTime = 75587 s
+
+Time = 159.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 15061.5 s  ClockTime = 75681 s
+
+Time = 160.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 15156.3 s  ClockTime = 75776 s
+
+Time = 161.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 15251.3 s  ClockTime = 75871 s
+
+Time = 162.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 15347.3 s  ClockTime = 75967 s
+
+Time = 163.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 15442.6 s  ClockTime = 76063 s
+
+Time = 164.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 15537.6 s  ClockTime = 76158 s
+
+Time = 165.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 15631 s  ClockTime = 76251 s
+
+Time = 166.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 15724.3 s  ClockTime = 76344 s
+
+Time = 167.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 15818 s  ClockTime = 76438 s
+
+Time = 168.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 15912.8 s  ClockTime = 77675 s
+
+Time = 169.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 16006.3 s  ClockTime = 77769 s
+
+Time = 170.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 16099.5 s  ClockTime = 77862 s
+
+Time = 171.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 16193.6 s  ClockTime = 77956 s
+
+Time = 172.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 16287.4 s  ClockTime = 78050 s
+
+Time = 173.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 16380.8 s  ClockTime = 78143 s
+
+Time = 174.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 16474.2 s  ClockTime = 78237 s
+
+Time = 175.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 16567.5 s  ClockTime = 78330 s
+
+Time = 176.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 16661 s  ClockTime = 78424 s
+
+Time = 177.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 16754.3 s  ClockTime = 78517 s
+
+Time = 178.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 16847.5 s  ClockTime = 78610 s
+
+Time = 179.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 16941.4 s  ClockTime = 78704 s
+
+Time = 180.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 17035.9 s  ClockTime = 78799 s
+
+Time = 181.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 17130.1 s  ClockTime = 78893 s
+
+Time = 182.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 17224.2 s  ClockTime = 78987 s
+
+Time = 183.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 17318.4 s  ClockTime = 79081 s
+
+Time = 184.6s
+
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for Uz, Initial residual = nan, Final residual = nan, No Iterations 1000
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+smoothSolver:  Solving for epsilon, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 1000
+ExecutionTime = 17412.4 s  ClockTime = 79175 s
+
+regIOobject::readIfModified() : 
+    Re-reading object controlDict from file "/home/openfoam/nv_windAroundBuildings2/system/controlDict"
