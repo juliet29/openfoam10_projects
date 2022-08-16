@@ -8,43 +8,60 @@
 FoamFile
 {
     format      ascii;
-    class       volVectorField;
-    location    "0";
-    object      U;
+    class       dictionary;
+    object      blockMeshDict;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-dimensions      [0 1 -1 0 0 0 0];
+convertToMeters 1;
 
-internalField   uniform (0 0 0);
+vertices
+(
+    (0 0 0)
+    (10 0 0)
+    (10 5 0)
+    (0 5 0)
+    (0 0 10)
+    (10 0 10)
+    (10 5 10)
+    (0 5 10)
+);
 
-boundaryField
-{
-    wtwalls
+blocks
+(
+    hex (0 1 2 3 4 5 6 7) (20 10 20) simpleGrading (1 1 1)
+);
+
+boundary
+(
+    floor
     {
-        type            noSlip;
+        type wall;
+        faces
+        (
+            (1 5 4 0)
+        );
     }
-    inlet
+    ceiling
     {
-        type            fixedValue;
-        value           uniform (10 0 0);
+        type wall;
+        faces
+        (
+            (3 7 6 2)
+        );
     }
-    outlet
+    fixedWalls
     {
-        type            pressureInletOutletVelocity;
-        value           uniform (0 0 0);
+        type wall;
+        faces
+        (
+            (0 4 7 3)
+            (2 6 5 1)
+            (0 3 2 1)
+            (4 5 6 7)
+        );
     }
-    building0
-    {
-        type            fixedValue;
-        value           uniform (0 0 0);
-    }
-    building1
-    {
-        type            fixedValue;
-        value           uniform (0 0 0);
-    }
-}
+);
 
 
 // ************************************************************************* //

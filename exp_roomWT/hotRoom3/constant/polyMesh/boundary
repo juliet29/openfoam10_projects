@@ -8,43 +8,42 @@
 FoamFile
 {
     format      ascii;
-    class       volVectorField;
-    location    "0";
-    object      U;
+    class       polyBoundaryMesh;
+    location    "constant/polyMesh";
+    object      boundary;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-dimensions      [0 1 -1 0 0 0 0];
-
-internalField   uniform (0 0 0);
-
-boundaryField
-{
+4
+(
+    building
+    {
+        type            walls;
+        physicalType    walls;
+        nFaces          0;
+        startFace       26097;
+    }
     wtwalls
     {
-        type            noSlip;
+        type            walls;
+        physicalType    walls;
+        nFaces          3154;
+        startFace       26097;
     }
     inlet
     {
-        type            fixedValue;
-        value           uniform (10 0 0);
+        type            patch;
+        physicalType    patch;
+        nFaces          532;
+        startFace       29251;
     }
     outlet
     {
-        type            pressureInletOutletVelocity;
-        value           uniform (0 0 0);
+        type            patch;
+        physicalType    patch;
+        nFaces          532;
+        startFace       29783;
     }
-    building0
-    {
-        type            fixedValue;
-        value           uniform (0 0 0);
-    }
-    building1
-    {
-        type            fixedValue;
-        value           uniform (0 0 0);
-    }
-}
-
+)
 
 // ************************************************************************* //

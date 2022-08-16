@@ -8,48 +8,39 @@
 FoamFile
 {
     format      ascii;
-    class       dictionary;
-    object      controlDict;
+    class       volScalarField;
+    location    "0";
+    object      epsilon;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-application     simpleFoam;
+dimensions      [0 2 -3 0 0 0 0];
 
-startFrom       latestTime;
+internalField   uniform 0.01;
 
-startTime       0;
-
-stopAt          endTime;
-
-endTime         0.6;
-
-deltaT          0.01;
-
-writeControl    timeStep;
-
-writeInterval   50;
-
-purgeWrite      0;
-
-writeFormat     ascii;
-
-writePrecision  6;
-
-writeCompression off;
-
-timeFormat      general;
-
-timePrecision   6;
-
-runTimeModifiable true;
-
-// adjustTimeStep  yes;
-
-// maxCo           1;
-
-functions
+boundaryField
 {
-  #includeFunc CourantNo
+    building
+    {
+        type            epsilonWallFunction;
+        value           uniform 0.01;
+    }
+    wtwalls
+    {
+        type            epsilonWallFunction;
+        value           uniform 0.01;
+    }
+    inlet
+    {
+        type            epsilonWallFunction;
+        value           uniform 0.01;
+    }
+    outlet
+    {
+        type            epsilonWallFunction;
+        value           uniform 0.01;
+    }
 }
+
 
 // ************************************************************************* //
