@@ -19,17 +19,22 @@ internalField   uniform (0 0 0);
 
 boundaryField
 {
-    floor
+    building
     {
         type            noSlip;
     }
 
-    ceiling
+    wtwalls
     {
         type            noSlip;
     }
 
-    fixedWalls
+    inlet
+    {
+        type            noSlip;
+    }
+
+    outlet
     {
         type            noSlip;
     }
