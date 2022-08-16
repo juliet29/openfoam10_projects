@@ -19,19 +19,24 @@ internalField   uniform 300;
 
 boundaryField
 {
-    floor
+    wtwalls
     {
         type            fixedValue;
         value           uniform 300;
     }
 
-    ceiling
+    inlet
+    {
+        type            fixedValue;
+        value           uniform 300;
+    }
+    outlet
     {
         type            fixedValue;
         value           uniform 300;
     }
 
-    fixedWalls
+    building
     {
         type            zeroGradient;
     }
