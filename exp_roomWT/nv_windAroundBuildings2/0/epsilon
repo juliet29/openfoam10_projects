@@ -36,6 +36,10 @@ boundaryField
         inletValue      uniform 0.03;
         value           uniform 0.03;
     }
+     building {
+        type            fixedValue;
+        value           uniform 1.5;
+    }
 }
 
 

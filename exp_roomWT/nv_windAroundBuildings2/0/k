@@ -37,6 +37,8 @@ boundaryField
         value           uniform 1.5;
     }
     building {
+        type            fixedValue;
+        value           uniform 1.5;
         
     }
 }
