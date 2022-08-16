@@ -36,10 +36,15 @@ boundaryField
         inletValue      uniform 1.5;
         value           uniform 1.5;
     }
-    building {
-        type            fixedValue;
+    building0
+    {
+        type            kqRWallFunction;
         value           uniform 1.5;
-        
+    }
+    building1
+    {
+        type            kqRWallFunction;
+        value           uniform 1.5;
     }
 }
 

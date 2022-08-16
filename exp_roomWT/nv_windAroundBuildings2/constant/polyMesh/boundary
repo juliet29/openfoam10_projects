@@ -14,35 +14,55 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-4
+5
 (
-    building
-    {
-        type            wall;
-        physicalType    wall;
-        nFaces          0;
-        startFace       26097;
-    }
     wtwalls
     {
         type            wall;
         physicalType    wall;
+        inGroups        List<word> 1(wall);
         nFaces          3154;
-        startFace       26097;
+        startFace       25967;
     }
     inlet
     {
         type            patch;
         physicalType    patch;
         nFaces          532;
-        startFace       29251;
+        startFace       29121;
     }
     outlet
     {
         type            patch;
         physicalType    patch;
         nFaces          532;
-        startFace       29783;
+        startFace       29653;
+    }
+    building0
+    {
+        type            wall;
+        inGroups        List<word> 
+2
+(
+wall
+baffleFaces
+)
+;
+        nFaces          130;
+        startFace       30185;
+    }
+    building1
+    {
+        type            wall;
+        inGroups        List<word> 
+2
+(
+wall
+baffleFaces
+)
+;
+        nFaces          130;
+        startFace       30315;
     }
 )
 

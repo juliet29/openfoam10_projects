@@ -34,9 +34,15 @@ boundaryField
         type            pressureInletOutletVelocity;
         value           uniform (0 0 0);
     }
-    building {
+    building0
+    {
         type            fixedValue;
-        value           uniform 1.5;
+        value           uniform (0.1 0 0);
+    }
+    building1
+    {
+        type            fixedValue;
+        value           uniform (0.1 0 0);
     }
 }
 

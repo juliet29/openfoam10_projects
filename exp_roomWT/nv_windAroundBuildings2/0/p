@@ -37,9 +37,13 @@ boundaryField
         p0              uniform 0;
         value           uniform 0;
     }
-    building {
-        type            fixedValue;
-        value           uniform 1.5;
+    building0
+    {
+        type            zeroGradient;
+    }
+    building1
+    {
+        type            zeroGradient;
     }
 }
 

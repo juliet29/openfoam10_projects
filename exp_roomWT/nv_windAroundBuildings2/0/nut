@@ -35,9 +35,15 @@ boundaryField
         type            calculated;
         value           uniform 0;
     }
-    building {
-        type            fixedValue;
-        value           uniform 1.5;
+    building0
+    {
+        type            nutkWallFunction;
+        value           uniform 0;
+    }
+    building1
+    {
+        type            nutkWallFunction;
+        value           uniform 0;
     }
 }
 
