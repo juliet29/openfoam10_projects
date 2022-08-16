@@ -8,38 +8,31 @@
 FoamFile
 {
     format      ascii;
-    class       volScalarField;
-    location    "0";
-    object      k;
+    class       dictionary;
+    location    "system";
+    object      sample;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-dimensions      [0 2 -2 0 0 0 0];
+type sets;
+libs            ("libsampling.so");
 
-internalField   uniform 1.5;
+interpolationScheme cellPoint;
 
-boundaryField
-{
-    wtwalls
-    {
-        type            kqRWallFunction;
-        value           uniform 1.5;
-    }
-    inlet
-    {
-        type            fixedValue;
-        value           uniform 1.5;
-    }
-    outlet
-    {
-        type            inletOutlet;
-        inletValue      uniform 1.5;
-        value           uniform 1.5;
-    }
-    building {
-        
-    }
-}
+setFormat       raw;
 
+sets
+(
+    data
+    {
+        type    lineUniform;
+        axis    x;
+        start   (-4.995 0 0);
+        end     (4.995 0 0);
+        nPoints 1000;
+    }
+);
+
+fields          (T mag(U) p);
 
 // ************************************************************************* //

@@ -8,38 +8,45 @@
 FoamFile
 {
     format      ascii;
-    class       volScalarField;
-    location    "0";
-    object      k;
+    class       dictionary;
+    location    "system";
+    object      controlDict;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-dimensions      [0 2 -2 0 0 0 0];
+application     rhoPimpleFoam;
 
-internalField   uniform 1.5;
+startFrom       startTime;
 
-boundaryField
+startTime       0;
+
+stopAt          endTime;
+
+endTime         0.007;
+
+deltaT          1e-6;
+
+writeControl    runTime;
+
+writeInterval   0.001;
+
+purgeWrite      0;
+
+writeFormat     ascii;
+
+writePrecision  6;
+
+writeCompression off;
+
+timeFormat      general;
+
+timePrecision   6;
+
+runTimeModifiable true;
+
+functions
 {
-    wtwalls
-    {
-        type            kqRWallFunction;
-        value           uniform 1.5;
-    }
-    inlet
-    {
-        type            fixedValue;
-        value           uniform 1.5;
-    }
-    outlet
-    {
-        type            inletOutlet;
-        inletValue      uniform 1.5;
-        value           uniform 1.5;
-    }
-    building {
-        
-    }
+    #includeFunc mag(U)
 }
-
 
 // ************************************************************************* //

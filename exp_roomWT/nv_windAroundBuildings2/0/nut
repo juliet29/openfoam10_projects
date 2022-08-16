@@ -35,6 +35,9 @@ boundaryField
         type            calculated;
         value           uniform 0;
     }
+    building {
+        
+    }
 }
 
 

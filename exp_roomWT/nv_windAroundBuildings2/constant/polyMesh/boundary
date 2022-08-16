@@ -18,15 +18,15 @@ FoamFile
 (
     building
     {
-        type            patch;
-        physicalType    patch;
+        type            wall;
+        physicalType    wall;
         nFaces          0;
         startFace       26097;
     }
     wtwalls
     {
-        type            patch;
-        physicalType    patch;
+        type            wall;
+        physicalType    wall;
         nFaces          3154;
         startFace       26097;
     }

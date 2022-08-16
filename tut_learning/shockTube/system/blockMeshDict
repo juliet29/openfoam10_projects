@@ -8,38 +8,53 @@
 FoamFile
 {
     format      ascii;
-    class       volScalarField;
-    location    "0";
-    object      k;
+    class       dictionary;
+    object      blockMeshDict;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-dimensions      [0 2 -2 0 0 0 0];
+convertToMeters 1;
 
-internalField   uniform 1.5;
+vertices
+(
+    (-5 -1 -1)
+    (5 -1 -1)
+    (5 1 -1)
+    (-5 1 -1)
+    (-5 -1 1)
+    (5 -1 1)
+    (5 1 1)
+    (-5 1 1)
+);
 
-boundaryField
-{
-    wtwalls
+blocks
+(
+    hex (0 1 2 3 4 5 6 7) (10000 1 1) simpleGrading (1 1 1)
+);
+
+boundary
+(
+    sides
     {
-        type            kqRWallFunction;
-        value           uniform 1.5;
+        type patch;
+        faces
+        (
+            (1 2 6 5)
+            (0 4 7 3)
+        );
     }
-    inlet
+    empty
     {
-        type            fixedValue;
-        value           uniform 1.5;
+        type empty;
+        faces
+        (
+            (0 1 5 4)
+            (5 6 7 4)
+            (3 7 6 2)
+            (0 3 2 1)
+        );
     }
-    outlet
-    {
-        type            inletOutlet;
-        inletValue      uniform 1.5;
-        value           uniform 1.5;
-    }
-    building {
-        
-    }
-}
+);
 
 
 // ************************************************************************* //

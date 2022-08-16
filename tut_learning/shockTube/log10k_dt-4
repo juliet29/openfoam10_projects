@@ -1,0 +1,98 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-2c6a80318abb
+Exec   : /opt/openfoam10/platforms/linux64GccDPInt32Opt/bin/rhoPimpleFoam
+Date   : Jul 28 2022
+Time   : 22:51:14
+Host   : "edbb5dc5e9b5"
+PID    : 420
+I/O    : uncollated
+Case   : /home/openfoam/tut_learning/shockTube
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+PIMPLE: No convergence criteria found
+
+
+PIMPLE: No corrector convergence criteria found
+        Calculations will do 2 corrections
+
+
+PIMPLE: Operating solver in transient mode with 2 outer correctors
+
+
+Reading thermophysical properties
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleInternalEnergy;
+}
+
+Reading field U
+
+Reading/calculating face flux field phi
+
+Creating turbulence model
+
+Selecting turbulence model type laminar
+Selecting laminar stress model Stokes
+Creating thermophysical transport model
+
+Selecting thermophysical transport type laminar
+Selecting default laminar thermophysical transport model unityLewisFourier
+Creating field dpdt
+
+Creating field kinetic energy K
+
+No MRF models present
+
+No fvModels present
+No fvConstraints present
+Courant Number mean: 0 max: 0
+
+Starting time loop
+
+Courant Number mean: 0 max: 0
+Time = 0.0001s
+
+PIMPLE: Iteration 1
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+smoothSolver:  Solving for Ux, Initial residual = 1, Final residual = 0, No Iterations 1
+smoothSolver:  Solving for e, Initial residual = 2.10812e-16, Final residual = 2.10812e-16, No Iterations 0
+smoothSolver:  Solving for p, Initial residual = 0.151255, Final residual = 0.000111359, No Iterations 1000
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 0.000236168, global = -0.000108154, cumulative = -0.000108154
+PIMPLE: Iteration 2
+smoothSolver:  Solving for Ux, Initial residual = 0.330338, Final residual = 3.22049e-17, No Iterations 1
+smoothSolver:  Solving for e, Initial residual = 0.254427, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 1000
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = nan, global = nan, cumulative = nan
+ExecutionTime = 11.5308 s  ClockTime = 12 s
+
+Courant Number mean: nan max: nan
+Time = 0.0002s
+
+PIMPLE: Iteration 1
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+smoothSolver:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 1000
+smoothSolver:  Solving for e, Initial residual = nan, Final residual = nan, No Iterations 1000

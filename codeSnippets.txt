@@ -39,3 +39,6 @@ createBaffles -overwrite
 # move multiple folders 
 # mv -t <destination> <src1> <src2> .... <srnN>
 mv -t exp_roomWT nv_hotRoom nv_hotRoom2
+
+# remove files 
+rm 0/T 0/U 0/p

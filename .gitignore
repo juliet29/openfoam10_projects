@@ -16,3 +16,6 @@ processor*
 .config
 openfoam10-macos.txt
 .bash_history
+_tut_original
+tut_examples
+
